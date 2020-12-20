@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#80c683"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="vertical"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#f8bbd0"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/ham"></FrameLayout>
+
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="출석하기" />
+
+        <Button
+            android:id="@+id/btnChangeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="시간변경" />
+
+        <Button
+            android:id="@+id/btnChangeLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="장소변경" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/myintrodution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/asdf"
+        android:text="\n\n\n이름 \n결석 4 \n지각 6"
+        android:textSize="20sp"></TextView>
+
+    <LinearLayout
+        android:background="#ffca28"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/cat"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n이름 \n결석 4 \n지각 6"
+            android:textSize="20sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#fff176"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/mouse"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n이름 \n결석 4 \n지각 6"
+            android:textSize="20sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:background="#aed581"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/dol"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n이름 \n결석 4 \n지각 6"
+            android:textSize="20sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#80deea"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/small"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n이름 \n결석 4 \n지각 6"
+            android:textSize="20sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

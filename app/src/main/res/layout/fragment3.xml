@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#80c683"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#80c683"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:orientation="vertical"
+
+
+    <LinearLayout
+        android:background="#f8bbd0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/uuu"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n[인하대학교 우애옹스]\n9:00/정석출석스터디\n2000원"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#ffca28"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/iii"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n[인천의 하버드]\n7:00/2호관\n10000원"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#fff176"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/sss"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n[서울대]\n6:20/도서관\n2000원"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#aed581"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/kkk"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n[연세대]\n6:50/연세대 운동장\n1000원"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#80deea"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/yyy"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n[서울대]\n3:30/알고리즘 스터디\n3000원"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="#80deea"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:background="@drawable/sks"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="\n\n인하대학교 우애옹스 \n 우애오오오옹스"
+            android:textSize="15sp"
+            android:fontFamily="@font/asdf">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end">
+            <ImageView
+                android:id="@+id/iv7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/join" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/rax" />
+
+</RelativeLayout>
